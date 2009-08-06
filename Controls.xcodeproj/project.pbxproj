@@ -15,11 +15,11 @@
 		2899E5220DE3E06400AC0155 /* ControlsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ControlsViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ControlsViewController.m */; };
+		5265E722102B9C810033D02D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5265E721102B9C810033D02D /* Icon.png */; };
 		52691C4D10288F2200236FA7 /* AIPadControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 52691C4C10288F2200236FA7 /* AIPadControl.m */; };
 		52691C561028990300236FA7 /* AISlideControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 52691C551028990300236FA7 /* AISlideControl.m */; };
 		52691C581028A52F00236FA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52691C571028A52F00236FA7 /* QuartzCore.framework */; };
 		52691D7F1028D89900236FA7 /* hex-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 52691D7E1028D89900236FA7 /* hex-pattern.png */; };
-		52691D961028E1A700236FA7 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 52691D951028E1A700236FA7 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +35,13 @@
 		28D7ACF70DDB3853001CB0EB /* ControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlsViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Controls_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controls_Prefix.pch; sourceTree = "<group>"; };
+		5265E721102B9C810033D02D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		52691C4B10288F2200236FA7 /* AIPadControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPadControl.h; sourceTree = "<group>"; };
 		52691C4C10288F2200236FA7 /* AIPadControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIPadControl.m; sourceTree = "<group>"; };
 		52691C541028990300236FA7 /* AISlideControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISlideControl.h; sourceTree = "<group>"; };
 		52691C551028990300236FA7 /* AISlideControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AISlideControl.m; sourceTree = "<group>"; };
 		52691C571028A52F00236FA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		52691D7E1028D89900236FA7 /* hex-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hex-pattern.png"; sourceTree = "<group>"; };
-		52691D951028E1A700236FA7 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Controls-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Controls-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +101,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				52691D951028E1A700236FA7 /* Icon.png */,
+				5265E721102B9C810033D02D /* Icon.png */,
 				52691D7E1028D89900236FA7 /* hex-pattern.png */,
 				2899E5210DE3E06400AC0155 /* ControlsViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
@@ -188,7 +188,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* ControlsViewController.xib in Resources */,
 				52691D7F1028D89900236FA7 /* hex-pattern.png in Resources */,
-				52691D961028E1A700236FA7 /* Icon.png in Resources */,
+				5265E722102B9C810033D02D /* Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
