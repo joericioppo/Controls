@@ -1,0 +1,7 @@
+Controls is demo app of the custom controls used in ColorDev.
+
+1. A custom slider control is implemented that accepts new touch events at any new location within the view, allowing the user to jump to new locations or values, as apposed the the pre-fab UISlider that only accepts events when caught by the little radial handle, and consequently kind of sucks.
+
+2. A custom by-directional pad control is implemented that tracks touch events throughout the view giving X and Y values with each touchesMoved: call. The Y value is flipped to give traditional cartesian coordinates. The values are clipped to 1.0 and 0.0 manually because the touch system by default continues to track outside of the view that's registering events and give values outside of its bounds coordinate system. This control is modeled after Photoshop's HSB color picker.
+
+These controls are designed to be reusable but have to be hooked up to a delegate manually with a custom delegate method.
