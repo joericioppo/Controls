@@ -39,7 +39,7 @@
 	if([delegate respondsToSelector:@selector(updateCurrentColorAnimated:)]) 
 	{
         [delegate updateCurrentColorAnimated:YES];
-    }
+        }
 }
 
 
@@ -61,7 +61,7 @@
 	
 	if([delegate respondsToSelector:@selector(updateCurrentColorAnimated:)]) {
         [delegate updateCurrentColorAnimated:NO];
-    }
+        }
 
 	if([delegate respondsToSelector:@selector(touchMovedInSlideControl)]) 
 	{
@@ -76,11 +76,6 @@
 //        [delegate touchEndedInSlider];
 //	}
 //}
-
-
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
 
 
 - (void)dealloc {
