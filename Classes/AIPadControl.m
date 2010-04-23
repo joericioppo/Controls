@@ -38,10 +38,6 @@
 	//Flip cooridinates
 	yValue = (self.bounds.size.height-location.y)/(self.bounds.size.height);
 
-//	if([delegate respondsToSelector:@selector(touchBeganInColorView)]) {
-//        [delegate touchBeganInColorView];
-//	}
-
 	if([delegate respondsToSelector:@selector(updateCurrentColorAnimated:)]) {
         [delegate updateCurrentColorAnimated:YES];
     }	
@@ -79,19 +75,9 @@
 	
 	if([delegate respondsToSelector:@selector(updateCurrentColorAnimated:)]) {
         [delegate updateCurrentColorAnimated:NO];
-    }
+        }
 	
 }
-
-
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
-	
-//	if([delegate respondsToSelector:@selector(touchEndedInColorView)]) {
-//        [delegate touchEndedInColorView];
-//	}
-}
-
 
 - (void)dealloc {
     [super dealloc];
